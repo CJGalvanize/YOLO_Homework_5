@@ -1,0 +1,3 @@
+Explanation of Error Statistics:
+We evaluated the performance of detection models. The predicted panicle counts were compared against the ground truth for the images that were generated. Using Mean Absolute Error (MAE), Root Mean Square Error (RMSE) to quantify error magnitude, R-squared (R^2) to assess the strenghth of the correlation and Bias to check for systematic over/under-counting. 
+There was a noticeable difference across the models evaluated with YOLOv9 as the top performer with the highest precision, MAE of 14.33 and the strongest correlation (R^2 = 0.61). However, there was some undercounting as indicated by a bias of -9.44. This may be due to a more conservative models which leads to missed panicles. 
